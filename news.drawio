@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-13T03:47:35.840Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="4pTcb3sk0xnWXE5vgyVi" version="15.5.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-10-13T03:54:54.406Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="wlId7Kiv9gAAlBFKe1g0" version="15.5.0" type="github" pages="4">
   <diagram id="KD9iu_JgUH0H1Sbimxe_" name="新闻架构">
     <mxGraphModel dx="1224" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -248,7 +248,7 @@
       <root>
         <mxCell id="7Qc847y8y6yzxlT3lI7B-0" />
         <mxCell id="7Qc847y8y6yzxlT3lI7B-1" parent="7Qc847y8y6yzxlT3lI7B-0" />
-        <mxCell id="AA3Op25QXbprD__S2R7N-0" value="Rank" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7Qc847y8y6yzxlT3lI7B-1">
+        <mxCell id="AA3Op25QXbprD__S2R7N-0" value="Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7Qc847y8y6yzxlT3lI7B-1">
           <mxGeometry x="320" y="147" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YGoX4weDeS7iqsoztIhH-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="7Qc847y8y6yzxlT3lI7B-1" source="AA3Op25QXbprD__S2R7N-1" target="YGoX4weDeS7iqsoztIhH-2">
