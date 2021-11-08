@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T07:51:28.563Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="WH-Fp7YGLmfhPHOvHWsP" version="15.7.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-11-08T08:17:08.736Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="Hp8mFgFf5RlYYplhUE8R" version="15.7.0" type="github" pages="6">
   <diagram id="KD9iu_JgUH0H1Sbimxe_" name="新闻架构">
-    <mxGraphModel dx="1224" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1225" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -171,7 +171,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_FsiARMDRBHKXkUB73u1" name="推荐系统">
-    <mxGraphModel dx="1224" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1225" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="vl84UMTIzc97SZActelG-0" />
         <mxCell id="vl84UMTIzc97SZActelG-1" parent="vl84UMTIzc97SZActelG-0" />
@@ -244,7 +244,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mgKOJOJt-D9-7q9Nq2L8" name="索引优化">
-    <mxGraphModel dx="1224" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1225" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="7Qc847y8y6yzxlT3lI7B-0" />
         <mxCell id="7Qc847y8y6yzxlT3lI7B-1" parent="7Qc847y8y6yzxlT3lI7B-0" />
@@ -291,7 +291,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="M3NEpJbfFmnr7t4vhmD6" name="throttling">
-    <mxGraphModel dx="1224" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1225" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="w8mzCWxKnwqgy9m1ei6H-0" />
         <mxCell id="w8mzCWxKnwqgy9m1ei6H-1" parent="w8mzCWxKnwqgy9m1ei6H-0" />
@@ -393,6 +393,45 @@
         </mxCell>
         <mxCell id="x_O-0Bcei849Uyw_AaH9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="KHtcDB4GVhwSQMb5SkVJ-1" source="x_O-0Bcei849Uyw_AaH9-1" target="x_O-0Bcei849Uyw_AaH9-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YROWuvVFpiJHMpSmWFtL" name="throttling process">
+    <mxGraphModel dx="1225" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="anzuTHmsa2hax9rS90Wc-0" />
+        <mxCell id="anzuTHmsa2hax9rS90Wc-1" parent="anzuTHmsa2hax9rS90Wc-0" />
+        <mxCell id="UoeKU9Z5Vyf9LBqqneDR-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="anzuTHmsa2hax9rS90Wc-1" source="UoeKU9Z5Vyf9LBqqneDR-0" target="UoeKU9Z5Vyf9LBqqneDR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UoeKU9Z5Vyf9LBqqneDR-0" value="Request" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="anzuTHmsa2hax9rS90Wc-1">
+          <mxGeometry x="120" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UoeKU9Z5Vyf9LBqqneDR-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="anzuTHmsa2hax9rS90Wc-1" source="UoeKU9Z5Vyf9LBqqneDR-1" target="UoeKU9Z5Vyf9LBqqneDR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UoeKU9Z5Vyf9LBqqneDR-1" value="Feature" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="anzuTHmsa2hax9rS90Wc-1">
+          <mxGeometry x="300" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UoeKU9Z5Vyf9LBqqneDR-2" value="Result" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="anzuTHmsa2hax9rS90Wc-1">
+          <mxGeometry x="481" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UoeKU9Z5Vyf9LBqqneDR-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="anzuTHmsa2hax9rS90Wc-1" source="UoeKU9Z5Vyf9LBqqneDR-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UoeKU9Z5Vyf9LBqqneDR-5" value="Feature Extractor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="anzuTHmsa2hax9rS90Wc-1">
+          <mxGeometry x="210" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UoeKU9Z5Vyf9LBqqneDR-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="anzuTHmsa2hax9rS90Wc-1" source="UoeKU9Z5Vyf9LBqqneDR-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="451" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UoeKU9Z5Vyf9LBqqneDR-6" value="Throttling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="anzuTHmsa2hax9rS90Wc-1">
+          <mxGeometry x="391" y="260" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
