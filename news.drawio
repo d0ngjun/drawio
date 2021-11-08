@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T07:30:49.169Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="gUFQZNt6iLMKefsle-ow" version="15.7.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-11-08T07:51:07.320Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="2SH0RGWXePNC_7L2oleS" version="15.7.0" type="github" pages="5">
   <diagram id="KD9iu_JgUH0H1Sbimxe_" name="新闻架构">
     <mxGraphModel dx="1224" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -351,7 +351,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1ZYpvF53zqJcJdbXJLb6" name="traffic shaping overview">
-    <mxGraphModel dx="1224" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1225" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="KHtcDB4GVhwSQMb5SkVJ-0" />
         <mxCell id="KHtcDB4GVhwSQMb5SkVJ-1" parent="KHtcDB4GVhwSQMb5SkVJ-0" />
@@ -379,7 +379,7 @@
         <mxCell id="GbxO64Nx1zPcrq2n7RzR-5" value="Deep Learning Algorithm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="KHtcDB4GVhwSQMb5SkVJ-1">
           <mxGeometry x="481" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GbxO64Nx1zPcrq2n7RzR-6" value="Model Updater" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="KHtcDB4GVhwSQMb5SkVJ-1">
+        <mxCell id="GbxO64Nx1zPcrq2n7RzR-6" value="Throttling Updater" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="KHtcDB4GVhwSQMb5SkVJ-1">
           <mxGeometry x="160" y="320" width="441" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GbxO64Nx1zPcrq2n7RzR-7" value="OLTP" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="KHtcDB4GVhwSQMb5SkVJ-1">
