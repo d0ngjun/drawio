@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-18T06:02:32.551Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="0ZJKsvT-08IHWwEVQodP" version="15.5.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-11-08T07:30:49.169Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="gUFQZNt6iLMKefsle-ow" version="15.7.0" type="github" pages="5">
   <diagram id="KD9iu_JgUH0H1Sbimxe_" name="新闻架构">
-    <mxGraphModel dx="1224" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1224" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -244,7 +244,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mgKOJOJt-D9-7q9Nq2L8" name="索引优化">
-    <mxGraphModel dx="1224" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1224" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="7Qc847y8y6yzxlT3lI7B-0" />
         <mxCell id="7Qc847y8y6yzxlT3lI7B-1" parent="7Qc847y8y6yzxlT3lI7B-0" />
@@ -291,7 +291,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="M3NEpJbfFmnr7t4vhmD6" name="throttling">
-    <mxGraphModel dx="1224" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1224" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="w8mzCWxKnwqgy9m1ei6H-0" />
         <mxCell id="w8mzCWxKnwqgy9m1ei6H-1" parent="w8mzCWxKnwqgy9m1ei6H-0" />
@@ -346,6 +346,53 @@
         </mxCell>
         <mxCell id="thGfdPQLdCIod-Q5dXPB-27" value="Throttling Config&lt;br&gt;(realtime update)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="w8mzCWxKnwqgy9m1ei6H-1" vertex="1">
           <mxGeometry x="481" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1ZYpvF53zqJcJdbXJLb6" name="traffic shaping overview">
+    <mxGraphModel dx="1224" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="KHtcDB4GVhwSQMb5SkVJ-0" />
+        <mxCell id="KHtcDB4GVhwSQMb5SkVJ-1" parent="KHtcDB4GVhwSQMb5SkVJ-0" />
+        <mxCell id="FNY8KFop97mcfC8DBFyt-0" value="In-Bound Request Throttling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="KHtcDB4GVhwSQMb5SkVJ-1">
+          <mxGeometry x="160" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FNY8KFop97mcfC8DBFyt-1" value="Out-Bound Request Throttling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="KHtcDB4GVhwSQMb5SkVJ-1">
+          <mxGeometry x="320" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FNY8KFop97mcfC8DBFyt-2" value="……" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="KHtcDB4GVhwSQMb5SkVJ-1">
+          <mxGeometry x="480" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GbxO64Nx1zPcrq2n7RzR-0" value="ETCD" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="KHtcDB4GVhwSQMb5SkVJ-1">
+          <mxGeometry x="320" y="400" width="121" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GbxO64Nx1zPcrq2n7RzR-2" value="Throttling Interface" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="KHtcDB4GVhwSQMb5SkVJ-1">
+          <mxGeometry x="160" y="160" width="441" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GbxO64Nx1zPcrq2n7RzR-3" value="Manual Rules" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="KHtcDB4GVhwSQMb5SkVJ-1">
+          <mxGeometry x="160" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GbxO64Nx1zPcrq2n7RzR-4" value="GBDT Algorithm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="KHtcDB4GVhwSQMb5SkVJ-1">
+          <mxGeometry x="320.5" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GbxO64Nx1zPcrq2n7RzR-5" value="Deep Learning Algorithm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="KHtcDB4GVhwSQMb5SkVJ-1">
+          <mxGeometry x="481" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GbxO64Nx1zPcrq2n7RzR-6" value="Model Updater" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="KHtcDB4GVhwSQMb5SkVJ-1">
+          <mxGeometry x="160" y="320" width="441" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GbxO64Nx1zPcrq2n7RzR-7" value="OLTP" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="KHtcDB4GVhwSQMb5SkVJ-1">
+          <mxGeometry x="160" y="400" width="121" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GbxO64Nx1zPcrq2n7RzR-9" value="FILE" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="KHtcDB4GVhwSQMb5SkVJ-1">
+          <mxGeometry x="480" y="405" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="x_O-0Bcei849Uyw_AaH9-1" value="Config" style="shape=card;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="KHtcDB4GVhwSQMb5SkVJ-1">
+          <mxGeometry x="640" y="220" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="x_O-0Bcei849Uyw_AaH9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="KHtcDB4GVhwSQMb5SkVJ-1" source="x_O-0Bcei849Uyw_AaH9-1" target="x_O-0Bcei849Uyw_AaH9-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
